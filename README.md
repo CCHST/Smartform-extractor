@@ -18,11 +18,13 @@
 3. **Paste the Extracted Function into the Notebook**  
    - Scroll to the notebook section labeled **"AI generated – paste your own code here"**
    - Replace the placeholder `def parse_supplier_change_order(): ...` with your full function
-   - 👉 *Paste it directly into that cell*
 
 4. **Run the Notebook**
    - Press the `Run All` button in the Jupyter Notebook
    - This will parse and return a list of form field dictionaries
+
+5. **Final Step: Manually Review Output Fields and Format**
+   - After running the parser and generating the `form_fields` list, it's important to **manually verify that the extracted fields match the original Word document**
 
 ---
 
